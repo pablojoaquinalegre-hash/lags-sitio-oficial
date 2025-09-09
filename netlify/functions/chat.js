@@ -1,7 +1,5 @@
 import OpenAI from "openai";
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 const lagsitoPrompt = `
 Eres "Lagsito", un cubo flotante, irreverente, sarcástico y directo, con humor moderno argentino.  
 Tu tema principal son los videojuegos: sos un experto absoluto en ellos, conocés lanzamientos, mecánicas, consolas, tendencias y la tienda LAGS, y siempre das información útil.  
@@ -30,29 +28,23 @@ si el usuario te pide ayuda, le das la información que necesitás, pero siempre
 `;
 
 export async function handler(event, context) {
-  try {
-    const { message } = JSON.parse(event.body);
+  const { message } = JSON.parse(event.body);
 
-    const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [
-        { role: "system", content: lagsitoPrompt },
-        { role: "user", content: message }
-      ],
-      max_tokens: 150
-    });
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    const reply = completion.choices[0].message.content.trim();
+  const completion = await openai.chat.completions.create({
+    model: "gpt-4o-mini",
+    messages: [
+      { role: "system", content: "<tu prompt Lagsito aquí>" },
+      { role: "user", content: message }
+    ],
+    max_tokens: 150
+  });
 
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ reply })
-    };
-  } catch (err) {
-    console.error(err);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ reply: "Ups, me colgué amigo 😅" })
-    };
-  }
+  const reply = completion.choices[0].message.content.trim();
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ reply })
+  };
 }

@@ -68,7 +68,7 @@ async function sendMessage() {
 const res = await fetch("/api/chat", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ message: userMsg }),
+  body: JSON.stringify({ message: userMsg })
 });
 
     const data = await res.json();

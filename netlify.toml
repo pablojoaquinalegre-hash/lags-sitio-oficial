@@ -1,8 +1,8 @@
 [build]
-  publish = "public"   # Cambiá "public" por la carpeta donde está tu index.html
-  functions = "netlify/functions"
+  publish = "public"                  
+  functions = "netlify/functions"    
 
 [[redirects]]
-  from = "/chat"
-  to = "/.netlify/functions/chat"
+  from = "/api/chat"                  
+  to = "/.netlify/functions/chat"    
   status = 200

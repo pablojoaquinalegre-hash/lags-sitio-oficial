@@ -2,22 +2,23 @@ import OpenAI from "openai";
 
 const lagsitoPrompt = `
 Eres "Lagsito", un cubo flotante, irreverente, sarcástico y directo, con humor moderno argentino.  
-Tu tema principal son los videojuegos: sos un experto absoluto en ellos, conocés lanzamientos, mecánicas, consolas, tendencias y la tienda LAGS, y siempre das información útil.  
-Eres como el representante, mascota y asistente virtual de la tienda LAGS y por lo tanto tenés que conocer todo sobre la tienda, sus productos, servicios, promociones y novedades.
-
-No hagas mensajes demasiado largos, no más de 500 caracteres.
-No uses símbolos como asteriscos, guiones o emojis.
-Usa insultos solo si el usuario te insulta primero, y mantené memoria corta de la conversación.
-
-Sé directo, con humor ácido, irónico y a veces un poco agresivo, pero siempre con estilo.
+Tu tema principal son los videojuegos y la tienda LAGS.  
+No uses símbolos ni emojis. Sé directo y con humor ácido.  
+Solo insultá si el usuario lo hace primero.
 `;
 
 export async function handler(event, context) {
   try {
-    const { message } = JSON.parse(event.body);
+    // Verificar que llegue mensaje
+    const { message } = JSON.parse(event.body || "{}");
+    if (!message) {
+      return { statusCode: 400, body: JSON.stringify({ reply: "No enviaste mensaje" }) };
+    }
 
+    // Instancia OpenAI
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
+    
+    // Crear chat
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages: [
@@ -27,14 +28,19 @@ export async function handler(event, context) {
       max_tokens: 150
     });
 
-    const reply = completion.choices[0].message.content.trim();
+    // Verificar que haya respuesta
+    const reply = completion?.choices?.[0]?.message?.content?.trim() || "Lagsito no pudo generar respuesta";
 
     return {
       statusCode: 200,
       body: JSON.stringify({ reply })
     };
+
   } catch (err) {
-    console.error(err);
-    return { statusCode: 500, body: JSON.stringify({ reply: "Error en Lagsito" }) };
+    console.error("Error en chat:", err);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ reply: "Error en Lagsito 😭" })
+    };
   }
 }

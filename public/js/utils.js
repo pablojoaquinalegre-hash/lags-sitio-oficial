@@ -86,3 +86,9 @@ export function getUserCurrency(countries){
   if(saved?.currency) return saved.currency;
   return "USD";
 }
+const burgerBtn = document.getElementById("burger-btn");
+const menu = document.querySelector("nav.menu");
+
+burgerBtn?.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});

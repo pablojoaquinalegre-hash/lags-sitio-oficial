@@ -1,11 +1,101 @@
-.profile{ display:grid; grid-template-columns: 220px 1fr; gap:16px; height: 200px; margin-bottom: 50px; margin-top: 50px;}
-.avatar{ position:relative; width:200px; height:200px; border-radius:50%; overflow:hidden; border:3px solid #222; transition: transform .25s ease; }
-.avatar:hover{ transform: scale(1.02); border: solid 2px ;}
-.profile input[type="file"]{ display:none; }
-.editable{ border-bottom:1px dashed #333; padding-bottom:3px; }
-#name{ font-size:40px; margin:0; text-align: center; padding-top: 25px;}
-.badges{align-items: center; display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; justify-content: center;}
-.soretes{align-items: center; display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; justify-content: center;}
-.badge{ background:#333; border-radius:12px; color:#eee; font-size:14px; padding:4px 8px; }
-#edit-name{ background:#444; border:none; color:#eee; cursor:pointer; font-size:14px; padding:8px 12px; transition: background .25s ease; }
-#edit-name:hover{ background:#555; }
+/* Perfil - layout principal */
+.profile {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+  height: 200px;
+  margin: 50px 0 50px 0;
+}
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #222;
+  transition: transform 0.25s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.02);
+  border: solid 2px;
+}
+
+.profile input[type="file"] {
+  display: none;
+}
+
+.editable {
+  border-bottom: 1px dashed #333;
+  padding-bottom: 3px;
+}
+
+#name {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.badges, .soretes {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.badge {
+  background: #333;
+  border-radius: 12px;
+  color: #eee;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+#edit-name {
+  background: #444;
+  border: none;
+  color: #eee;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: background 0.25s ease;
+}
+
+#edit-name:hover {
+  background: #555;
+}
+
+/* --- Responsive móvil --- */
+@media (max-width: 768px) {
+  .profile {
+    grid-template-columns: 1fr;
+    height: auto;
+    text-align: center;
+    margin: 30px 10px;
+    gap: 20px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #name {
+    font-size: 28px;
+    padding-top: 15px;
+  }
+
+  .badges, .soretes {
+    justify-content: center;
+  }
+
+  #edit-name {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

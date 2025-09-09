@@ -25,3 +25,74 @@
   transform: translateY(0) rotateX(0);
   filter: blur(0);
 }
+@media (max-width: 768px) {
+  /* Contenedor principal pasa a columna */
+  main .grid {
+    display: flex;
+    flex-direction: column; /* todo en columna */
+    gap: 16px;
+  }
+
+  /* Sección principal de posts y compose toma todo el ancho */
+  main section.grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Sidebar (Tendencias y Grupos) arriba */
+  main aside.grid {
+    width: 100%;
+    position: relative;
+    top: auto;
+    max-height: none;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Compose (barra de publicar) debajo del aside */
+  .compose {
+    order: 2; /* segundo en la columna */
+    width: 100%;
+  }
+
+  /* Feed con posts debajo de todo */
+  #feed {
+    order: 3; /* últimos en la columna */
+    width: 100%;
+  }
+
+  /* Ajustes de posts */
+  .post {
+    grid-template-columns: 40px 1fr;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .post img.avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .post .meta {
+    font-size: 0.8rem;
+  }
+
+  /* Ajustes de textarea y botones dentro de compose */
+  .compose textarea {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .compose div {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .compose .btn {
+    width: 100%;
+  }
+}

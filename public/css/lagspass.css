@@ -1,14 +1,17 @@
-.list{ 
-  display:grid; 
+/* Lista de juegos */
+.list { 
+  display: grid; 
   grid-template-columns: repeat(5, minmax(0,1fr)); 
-  gap:16px; 
-  margin-top:16px;
-  overflow-x:auto;
-  padding-bottom:8px;
+  gap: 16px; 
+  margin-top: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
   scrollbar-width: thin;
   scrollbar-color: #3a3a3a #121212;
 }
-span{
+
+/* Tarjetas de juegos */
+span {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +23,8 @@ span{
   box-shadow: 0 2px 12px rgba(0,0,0,.25);
   transition: transform .2s ease, box-shadow .2s ease;
 }
+
+/* Suscripción */
 .subscription-card {
   background: var(--card);
   border: 1px solid #1f1f1f;
@@ -33,9 +38,11 @@ span{
 .subscription-card p { margin-bottom: 20px; }
 .subscription-card .actions button { margin: 5px; }
 
+/* Botones */
 .btn.red { background: #c62828; color: #fff; }
 .btn.red:hover { background: #f44336; }
 
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -51,6 +58,8 @@ span{
   display: flex;
   backdrop-filter: blur(10px);
 }
+
+/* Contenido modal */
 .modal-content.checkout {
   background: #070707;
   border-radius: 8px;
@@ -64,26 +73,34 @@ span{
   transition: transform 0.6s cubic-bezier(0.68,-0.55,0.27,1.55), opacity 0.6s ease;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
+
+/* Checkout body */
 .checkout-body {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  align-items: center; 
+  align-items: center;
 }
+
+/* Sección de pagos */
 .payment-section {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 100%;
-  align-items: center; 
+  align-items: center;
 }
+
+/* Mostrar modal */
 .modal.show .modal-content.checkout {
   transform: translateY(0) scale(1);
   opacity: 1;
 }
+
+/* Cerrar modal */
 .close {
   position: absolute;
   top: 10px; right: 15px;
@@ -92,24 +109,29 @@ span{
   color: #fff;
 }
 
+/* Opciones de pago */
 .payment-options {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  align-items: center; 
+  align-items: center;
+  justify-content: center;
 }
 
 .payment-options .row {
   display: flex;
   gap: 10px;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
 }
+
 .payment-options .row .payment-btn {
   flex: 1;
-  max-width: 200px; 
+  max-width: 200px;
 }
+
+/* Botones de pago */
 .payment-btn {
   padding: 14px 20px;
   background: #333;
@@ -121,7 +143,9 @@ span{
   text-align: center;
   font-size: 1rem;
 }
+
 .payment-btn:hover { background: #a5a5a5; }
+
 .payment-btn.mercado {
   display: flex;
   align-items: center;
@@ -133,9 +157,11 @@ span{
 
 .mp-logo { width: 50px; height: auto; }
 
+/* Formulario tarjeta */
 .card-form { display: flex; flex-direction: column; gap: 10px; }
 .card-form.hidden { display: none; }
 
+/* Confirmar compra */
 #confirmPurchase {
   margin-top: 15px;
   padding: 16px 32px;
@@ -147,8 +173,8 @@ span{
   font-size: 1.1rem;
   font-weight: 900;
   text-align: center;
-  align-self: center; 
-  max-width: 250px; 
+  align-self: center;
+  max-width: 250px;
 }
 #confirmPurchase:hover { background: #ff8c42; }
 .payment-btn.mercado:hover { 
@@ -156,6 +182,7 @@ span{
   color: #070707;
 }
 
+/* Animaciones */
 @keyframes blurIn {
   0% {
     opacity: 0;
@@ -171,4 +198,45 @@ span{
 
 .card.animate-in {
   animation: blurIn 0.6s ease forwards;
+}
+
+/* ------------------ RESPONSIVE ------------------ */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .list { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+  .subscription-card { margin: 30px 20px; }
+  .payment-options .row { flex-direction: column; gap: 10px; }
+  .payment-options .row .payment-btn { max-width: 100%; }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+  .list { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+  .subscription-card { margin: 20px 15px; padding: 15px; }
+  #confirmPurchase { padding: 12px 24px; font-size: 1rem; max-width: 200px; }
+  .payment-options { width: 100%; }
+  .payment-options .row { flex-direction: column; gap: 10px; }
+  .payment-options .row .payment-btn { width: 100%; max-width: none; }
+}
+
+/* Móviles muy pequeños */
+@media (max-width: 480px) {
+  .list { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
+  .subscription-card { padding: 10px; }
+  #confirmPurchase { padding: 10px 20px; font-size: 0.9rem; max-width: 180px; }
+}
+@media (max-width: 768px) {
+  .modal-content.checkout {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .modal-content.checkout {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+  }
 }

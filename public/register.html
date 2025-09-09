@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crear cuenta en LAGS</title>
+  <icon link rel="icon" href="https://static.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest/scale-to-width-down/400?cb=20140818120046">
+  <link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+  
+<header class="site">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo">L</div>
+      <a href="./index.html">LAGS – Latinoamérica Games Store</a>
+    </div>
+    <nav class="menu">
+      <a href="./index.html">Inicio</a>
+      <a href="./biblioteca.html">Biblioteca</a>
+      <a href="./comunidad.html">Comunidad</a>
+      <a href="./lagspass.html">LAGSpass</a>
+    </nav>
+    <div class="actions">
+      <a class="btn" href="./perfil.html">Perfil</a>
+      <a class="btn brand" href="./login.html">Iniciar sesión</a>
+    </div>
+  </div>
+</header>
+
+  <main class="container section">
+    
+<div class="center" style="min-height:80vh;">
+  <div class="auth-card">
+    <div class="auth-header">
+      <h2>Crear cuenta</h2>
+      <p class="muted">Selecciona tu país para configurar moneda y región.</p>
+    </div>
+    <form id="register-form" class="form">
+      <div class="row">
+        <div><label>Nombre</label><input name="name" type="text" placeholder="Tu nombre" required></div>
+        <div><label>Email</label><input name="email" type="email" placeholder="tu@email.com" required></div>
+      </div>
+      <div class="row">
+        <div><label>Contraseña</label><input name="password" type="password" placeholder="••••••••" required></div>
+        <div><label>País / Moneda</label><select id="country" required></select></div>
+      </div>
+      <button class="btn brand" type="submit">Crear cuenta</button>
+      <div>¿Ya tienes cuenta? <a href="./login.html">Inicia sesión</a></div>
+    </form>
+  </div>
+</div>
+
+  </main>
+  
+<footer class="site">
+  <div class="container">
+    <div class="cols">
+      <div><strong>LAGS</strong><p>Tu tienda digital de videojuegos para Latinoamérica.</p></div>
+      <div><strong>Explora</strong><ul><li><a href="./index.html">Inicio</a></li><li><a href="./comunidad.html">Comunidad</a></li></ul></div>
+      <div><strong>Cuenta</strong><ul><li><a href="./perfil.html">Perfil</a></li><li><a href="./login.html">Iniciar sesión</a></li></ul></div>
+      <div><strong>Legal</strong><ul><li>Uso educativo, no comercial.</li><li>Marcas pertenecen a sus dueños.</li></ul></div>
+    </div>
+    <small>© 2025 LAGS · Argentina</small>
+  </div>
+</footer>
+
+  <script type="module" src="./js/register.js"></script>
+</body>
+</html>

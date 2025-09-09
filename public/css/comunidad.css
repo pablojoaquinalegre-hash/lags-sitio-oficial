@@ -1,0 +1,27 @@
+.post{ background:var(--card); border:1px solid #1f1f1f; border-radius:16px; padding:12px; display:grid; grid-template-columns:56px 1fr; gap:12px; }
+.post img.avatar{ width:56px; height:56px; border-radius:50%; object-fit:cover; }
+.post .meta{ color:#b3b3b3; font-size:.9rem; }
+.compose{ background:var(--card); border:1px solid #1f1f1f; border-radius:16px; padding:12px; display:grid; gap:8px; }
+.post {
+  background: var(--card);
+  border: 1px solid #1f1f1f;
+  border-radius: 16px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+
+  opacity: 0;
+  transform: translateY(-50px) rotateX(10deg); 
+  filter: blur(12px);
+  transition: 
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), 
+    opacity 0.8s ease, 
+    filter 0.8s ease;
+}
+
+.post.show {
+  opacity: 1;
+  transform: translateY(0) rotateX(0);
+  filter: blur(0);
+}

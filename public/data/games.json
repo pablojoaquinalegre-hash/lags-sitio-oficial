@@ -1,0 +1,1381 @@
+{
+  "count": 94,
+  "games": [
+    {
+      "appid": 271590,
+      "title": "Grand Theft Auto V",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar",
+      "year": 2015,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.7,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/271590/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/271590/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1174180,
+      "title": "Red Dead Redemption 2",
+      "developer": "Rockstar",
+      "publisher": "Rockstar",
+      "year": 2019,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1245620,
+      "title": "ELDEN RING",
+      "developer": "FromSoftware",
+      "publisher": "Bandai Namco",
+      "year": 2022,
+      "categories": [
+        "RPG"
+      ],
+      "rating": 4.9,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 814380,
+      "title": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "publisher": "Activision",
+      "year": 2019,
+      "categories": [
+        "Acción",
+        "Soulslike"
+      ],
+      "rating": 4.7,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/814380/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1086940,
+      "title": "Baldur's Gate 3",
+      "developer": "Larian Studios",
+      "publisher": "Larian Studios",
+      "year": 2023,
+      "categories": [
+        "RPG",
+        "Historia"
+      ],
+      "rating": 4.9,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 413150,
+      "title": "Stardew Valley",
+      "developer": "ConcernedApe",
+      "publisher": "ConcernedApe",
+      "year": 2016,
+      "categories": [
+        "Simulación"
+      ],
+      "rating": 4.9,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 292030,
+      "title": "The Witcher 3: Wild Hunt",
+      "developer": "CD PROJEKT RED",
+      "publisher": "CD PROJEKT RED",
+      "year": 2015,
+      "categories": [
+        "RPG",
+        "Historia"
+      ],
+      "rating": 4.9,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 578080,
+      "title": "PUBG: BATTLEGROUNDS",
+      "developer": "KRAFTON",
+      "publisher": "KRAFTON",
+      "year": 2017,
+      "categories": [
+        "Battle Royale",
+        "Shooter"
+      ],
+      "rating": 4.2,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/578080/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/578080/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 252490,
+      "title": "Rust",
+      "developer": "Facepunch Studios",
+      "publisher": "Facepunch Studios",
+      "year": 2018,
+      "categories": [
+        "Supervivencia",
+        "Multijugador"
+      ],
+      "rating": 4.4,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/252490/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/252490/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 381210,
+      "title": "Dead by Daylight",
+      "developer": "Behaviour",
+      "publisher": "Behaviour",
+      "year": 2016,
+      "categories": [
+        "Terror"
+      ],
+      "rating": 4.4,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/381210/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/381210/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 236390,
+      "title": "War Thunder",
+      "developer": "Gaijin",
+      "publisher": "Gaijin",
+      "year": 2013,
+      "categories": [
+        "Simulación",
+        "Guerra"
+      ],
+      "rating": 4.2,
+      "price": 0,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/236390/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/236390/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/236390/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1145360,
+      "title": "Hades",
+      "developer": "Supergiant Games",
+      "publisher": "Supergiant Games",
+      "year": 2020,
+      "categories": [
+        "Roguelike",
+        "Acción"
+      ],
+      "rating": 4.9,
+      "price": 24.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 367520,
+      "title": "Hollow Knight",
+      "developer": "Team Cherry",
+      "publisher": "Team Cherry",
+      "year": 2017,
+      "categories": [
+        "Metroidvania",
+        "Acción"
+      ],
+      "rating": 4.9,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/367520/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 504230,
+      "title": "Celeste",
+      "developer": "Maddy Makes Games",
+      "publisher": "Maddy Makes Games",
+      "year": 2018,
+      "categories": [
+        "Plataformas",
+        "Indie"
+      ],
+      "rating": 4.8,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/504230/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/504230/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 582010,
+      "title": "MONSTER HUNTER: WORLD",
+      "developer": "CAPCOM",
+      "publisher": "CAPCOM",
+      "year": 2018,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.6,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/582010/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1446780,
+      "title": "MONSTER HUNTER RISE",
+      "developer": "CAPCOM",
+      "publisher": "CAPCOM",
+      "year": 2022,
+      "categories": [
+        "Acción",
+        "Cooperativo"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1091500,
+      "title": "Cyberpunk 2077",
+      "developer": "CD PROJEKT RED",
+      "publisher": "CD PROJEKT RED",
+      "year": 2020,
+      "categories": [
+        "RPG",
+        "Mundo Abierto"
+      ],
+      "rating": 4.6,
+      "price": 49.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 892970,
+      "title": "Valheim",
+      "developer": "Iron Gate AB",
+      "publisher": "Coffee Stain",
+      "year": 2021,
+      "categories": [
+        "Supervivencia",
+        "Coop"
+      ],
+      "rating": 4.6,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/892970/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/892970/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 294100,
+      "title": "RimWorld",
+      "developer": "Ludeon Studios",
+      "publisher": "Ludeon Studios",
+      "year": 2018,
+      "categories": [
+        "Simulación",
+        "Gestión"
+      ],
+      "rating": 4.9,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/294100/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/294100/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 646570,
+      "title": "Slay the Spire",
+      "developer": "MegaCrit",
+      "publisher": "MegaCrit",
+      "year": 2019,
+      "categories": [
+        "Cartas",
+        "Roguelike"
+      ],
+      "rating": 4.9,
+      "price": 24.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/646570/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/646570/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 548430,
+      "title": "Deep Rock Galactic",
+      "developer": "Ghost Ship Games",
+      "publisher": "Coffee Stain",
+      "year": 2020,
+      "categories": [
+        "Coop",
+        "Acción"
+      ],
+      "rating": 4.8,
+      "price": 24.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/548430/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/548430/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 739630,
+      "title": "Phasmophobia",
+      "developer": "Kinetic Games",
+      "publisher": "Kinetic Games",
+      "year": 2020,
+      "categories": [
+        "Terror"
+      ],
+      "rating": 4.5,
+      "price": 13.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/739630/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/739630/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 281990,
+      "title": "Stellaris",
+      "developer": "Paradox",
+      "publisher": "Paradox",
+      "year": 2016,
+      "categories": [
+        "Estrategia"
+      ],
+      "rating": 4.6,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/281990/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/281990/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/281990/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 594650,
+      "title": "Hunt: Showdown",
+      "developer": "Crytek",
+      "publisher": "Crytek",
+      "year": 2019,
+      "categories": [
+        "Acción",
+        "PvPvE"
+      ],
+      "rating": 4.5,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/594650/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/594650/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/594650/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 275850,
+      "title": "No Man's Sky",
+      "developer": "Hello Games",
+      "publisher": "Hello Games",
+      "year": 2016,
+      "categories": [
+        "Aventura",
+        "Exploración"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/275850/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/275850/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 813780,
+      "title": "Age of Empires II: Definitive Edition",
+      "developer": "World's Edge",
+      "publisher": "Xbox Game Studios",
+      "year": 2019,
+      "categories": [
+        "Estrategia",
+        "RTS"
+      ],
+      "rating": 4.8,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/813780/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/813780/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 524220,
+      "title": "NieR:Automata",
+      "developer": "PlatinumGames",
+      "publisher": "Square Enix",
+      "year": 2017,
+      "categories": [
+        "Acción",
+        "RPG"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/524220/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/524220/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/524220/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 782330,
+      "title": "DOOM Eternal",
+      "developer": "id Software",
+      "publisher": "Bethesda",
+      "year": 2020,
+      "categories": [
+        "Shooter"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/782330/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/782330/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 359550,
+      "title": "Tom Clancy's Rainbow Six Siege",
+      "developer": "Ubisoft",
+      "publisher": "Ubisoft",
+      "year": 2015,
+      "categories": [
+        "Shooter"
+      ],
+      "rating": 4.3,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/359550/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/359550/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 620,
+      "title": "Portal 2",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "year": 2011,
+      "categories": [
+        "Puzles",
+        "Coop"
+      ],
+      "rating": 4.9,
+      "price": 9.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/620/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/620/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 400,
+      "title": "Portal",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "year": 2007,
+      "categories": [
+        "Puzles"
+      ],
+      "rating": 4.9,
+      "price": 4.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/400/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/400/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/400/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 220,
+      "title": "Half‑Life 2",
+      "developer": "Valve",
+      "publisher": "Valve",
+      "year": 2004,
+      "categories": [
+        "Acción",
+        "FPS"
+      ],
+      "rating": 4.9,
+      "price": 9.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/220/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/220/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/220/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 362890,
+      "title": "Black Mesa",
+      "developer": "Crowbar Collective",
+      "publisher": "Crowbar Collective",
+      "year": 2020,
+      "categories": [
+        "Acción",
+        "FPS"
+      ],
+      "rating": 4.8,
+      "price": 9.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/362890/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/362890/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/362890/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 242760,
+      "title": "The Forest",
+      "developer": "Endnight Games",
+      "publisher": "Endnight Games",
+      "year": 2018,
+      "categories": [
+        "Supervivencia",
+        "Terror"
+      ],
+      "rating": 4.6,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/242760/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/242760/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1326470,
+      "title": "Sons Of The Forest",
+      "developer": "Endnight Games",
+      "publisher": "Newnight",
+      "year": 2023,
+      "categories": [
+        "Supervivencia"
+      ],
+      "rating": 4.4,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 264710,
+      "title": "Subnautica",
+      "developer": "Unknown Worlds",
+      "publisher": "Unknown Worlds",
+      "year": 2018,
+      "categories": [
+        "Aventura",
+        "Supervivencia"
+      ],
+      "rating": 4.8,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/264710/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/264710/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 105600,
+      "title": "Terraria",
+      "developer": "Re-Logic",
+      "publisher": "Re-Logic",
+      "year": 2011,
+      "categories": [
+        "Aventura",
+        "Sandbox"
+      ],
+      "rating": 4.9,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/105600/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/105600/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 219740,
+      "title": "Don't Starve",
+      "developer": "Klei",
+      "publisher": "Klei",
+      "year": 2013,
+      "categories": [
+        "Supervivencia"
+      ],
+      "rating": 4.6,
+      "price": 9.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/219740/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/219740/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/219740/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 322330,
+      "title": "Don't Starve Together",
+      "developer": "Klei",
+      "publisher": "Klei",
+      "year": 2016,
+      "categories": [
+        "Supervivencia",
+        "Coop"
+      ],
+      "rating": 4.8,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/322330/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/322330/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/322330/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 346110,
+      "title": "ARK: Survival Evolved",
+      "developer": "Studio Wildcard",
+      "publisher": "Studio Wildcard",
+      "year": 2017,
+      "categories": [
+        "Supervivencia"
+      ],
+      "rating": 4.2,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/346110/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/346110/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 427520,
+      "title": "Factorio",
+      "developer": "Wube Software",
+      "publisher": "Wube Software",
+      "year": 2020,
+      "categories": [
+        "Automatización",
+        "Gestión"
+      ],
+      "rating": 4.9,
+      "price": 30.00,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/427520/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/427520/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 526870,
+      "title": "Satisfactory",
+      "developer": "Coffee Stain",
+      "publisher": "Coffee Stain",
+      "year": 2020,
+      "categories": [
+        "Automatización",
+        "Construcción"
+      ],
+      "rating": 4.8,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/526870/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/526870/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/526870/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 255710,
+      "title": "Cities: Skylines",
+      "developer": "Colossal Order",
+      "publisher": "Paradox",
+      "year": 2015,
+      "categories": [
+        "Gestión",
+        "Ciudad"
+      ],
+      "rating": 4.8,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/255710/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/255710/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 949230,
+      "title": "Cities: Skylines II",
+      "developer": "Colossal Order",
+      "publisher": "Paradox",
+      "year": 2023,
+      "categories": [
+        "Gestión",
+        "Ciudad"
+      ],
+      "rating": 3.7,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/949230/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/949230/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/949230/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 227300,
+      "title": "Euro Truck Simulator 2",
+      "developer": "SCS Software",
+      "publisher": "SCS Software",
+      "year": 2012,
+      "categories": [
+        "Simulación"
+      ],
+      "rating": 4.9,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/227300/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/227300/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 270880,
+      "title": "American Truck Simulator",
+      "developer": "SCS Software",
+      "publisher": "SCS Software",
+      "year": 2016,
+      "categories": [
+        "Simulación"
+      ],
+      "rating": 4.8,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/270880/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/270880/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/270880/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 387290,
+      "title": "Ori and the Blind Forest: Definitive Edition",
+      "developer": "Moon Studios",
+      "publisher": "Xbox Game Studios",
+      "year": 2016,
+      "categories": [
+        "Plataformas"
+      ],
+      "rating": 4.9,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/387290/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/387290/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/387290/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1057090,
+      "title": "Ori and the Will of the Wisps",
+      "developer": "Moon Studios",
+      "publisher": "Xbox Game Studios",
+      "year": 2020,
+      "categories": [
+        "Plataformas"
+      ],
+      "rating": 4.9,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 588650,
+      "title": "Dead Cells",
+      "developer": "Motion Twin",
+      "publisher": "Motion Twin",
+      "year": 2018,
+      "categories": [
+        "Roguelike",
+        "Acción"
+      ],
+      "rating": 4.8,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/588650/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/588650/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 632360,
+      "title": "Risk of Rain 2",
+      "developer": "Hopoo Games",
+      "publisher": "Gearbox",
+      "year": 2020,
+      "categories": [
+        "Roguelike",
+        "Coop"
+      ],
+      "rating": 4.7,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/632360/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/632360/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 250900,
+      "title": "The Binding of Isaac: Rebirth",
+      "developer": "Nicalis",
+      "publisher": "Nicalis",
+      "year": 2014,
+      "categories": [
+        "Roguelike"
+      ],
+      "rating": 4.8,
+      "price": 14.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/250900/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/250900/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/250900/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1794680,
+      "title": "Vampire Survivors",
+      "developer": "poncle",
+      "publisher": "poncle",
+      "year": 2022,
+      "categories": [
+        "Roguelike",
+        "Indie"
+      ],
+      "rating": 4.9,
+      "price": 7.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 413420,
+      "title": "NieR Replicant",
+      "developer": "Toylogic",
+      "publisher": "Square Enix",
+      "year": 2021,
+      "categories": [
+        "Acción",
+        "RPG"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/413420/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/413420/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/413420/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 504370,
+      "title": "Total War: WARHAMMER II",
+      "developer": "CREATIVE ASSEMBLY",
+      "publisher": "SEGA",
+      "year": 2017,
+      "categories": [
+        "Estrategia",
+        "RTS"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/504370/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/504370/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/504370/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1142710,
+      "title": "Total War: THREE KINGDOMS",
+      "developer": "CREATIVE ASSEMBLY",
+      "publisher": "SEGA",
+      "year": 2019,
+      "categories": [
+        "Estrategia"
+      ],
+      "rating": 4.2,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 236850,
+      "title": "Europa Universalis IV",
+      "developer": "Paradox",
+      "publisher": "Paradox",
+      "year": 2013,
+      "categories": [
+        "Estrategia",
+        "Gran Estrategia"
+      ],
+      "rating": 4.6,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/236850/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/236850/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/236850/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 394360,
+      "title": "Hearts of Iron IV",
+      "developer": "Paradox",
+      "publisher": "Paradox",
+      "year": 2016,
+      "categories": [
+        "Estrategia",
+        "Gran Estrategia"
+      ],
+      "rating": 4.7,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/394360/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/394360/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/394360/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 457140,
+      "title": "Oxygen Not Included",
+      "developer": "Klei",
+      "publisher": "Klei",
+      "year": 2019,
+      "categories": [
+        "Gestión"
+      ],
+      "rating": 4.8,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/457140/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/457140/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/457140/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 594570,
+      "title": "Nioh: Complete Edition",
+      "developer": "KOEI TECMO GAMES",
+      "publisher": "KOEI TECMO GAMES",
+      "year": 2017,
+      "categories": [
+        "Acción",
+        "RPG"
+      ],
+      "rating": 4.5,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/594570/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/594570/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/594570/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1328670,
+      "title": "Nioh 2 – The Complete Edition",
+      "developer": "KOEI TECMO GAMES",
+      "publisher": "KOEI TECMO GAMES",
+      "year": 2021,
+      "categories": [
+        "Acción",
+        "RPG"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1328670/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1328670/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1328670/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 48000,
+      "title": "LIMBO",
+      "developer": "Playdead",
+      "publisher": "Playdead",
+      "year": 2011,
+      "categories": [
+        "Puzles",
+        "Plataformas"
+      ],
+      "rating": 4.7,
+      "price": 9.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/48000/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/48000/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/48000/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 304430,
+      "title": "INSIDE",
+      "developer": "Playdead",
+      "publisher": "Playdead",
+      "year": 2016,
+      "categories": [
+        "Puzles",
+        "Plataformas"
+      ],
+      "rating": 4.8,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/304430/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/304430/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/304430/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 275390,
+      "title": "Alien: Isolation",
+      "developer": "Creative Assembly",
+      "publisher": "SEGA",
+      "year": 2014,
+      "categories": [
+        "Terror",
+        "Sigilo"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/275390/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/275390/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/275390/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 200510,
+      "title": "XCOM: Enemy Unknown",
+      "developer": "Firaxis",
+      "publisher": "2K",
+      "year": 2012,
+      "categories": [
+        "Estrategia",
+        "Táctico"
+      ],
+      "rating": 4.7,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/200510/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/200510/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/200510/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 268500,
+      "title": "XCOM 2",
+      "developer": "Firaxis",
+      "publisher": "2K",
+      "year": 2016,
+      "categories": [
+        "Estrategia",
+        "Táctico"
+      ],
+      "rating": 4.7,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/268500/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/268500/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/268500/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 359320,
+      "title": "Elite Dangerous",
+      "developer": "Frontier Developments",
+      "publisher": "Frontier",
+      "year": 2015,
+      "categories": [
+        "Simulación",
+        "Espacio"
+      ],
+      "rating": 4.2,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/359320/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/359320/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/359320/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 700330,
+      "title": "Deep Rock Galactic Experimental",
+      "developer": "Ghost Ship Games",
+      "publisher": "Coffee Stain",
+      "year": 2018,
+      "categories": [
+        "Coop"
+      ],
+      "rating": 4.0,
+      "price": 29.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/700330/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/700330/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/700330/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 221100,
+      "title": "DayZ",
+      "developer": "Bohemia Interactive",
+      "publisher": "Bohemia Interactive",
+      "year": 2018,
+      "categories": [
+        "Supervivencia"
+      ],
+      "rating": 4.0,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/221100/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/221100/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 480490,
+      "title": "Bayonetta",
+      "developer": "PlatinumGames",
+      "publisher": "SEGA",
+      "year": 2017,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.6,
+      "price": 19.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/480490/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/480490/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/480490/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1238810,
+      "title": "Horizon Zero Dawn Complete Edition",
+      "developer": "Guerrilla",
+      "publisher": "PlayStation PC LLC",
+      "year": 2020,
+      "categories": [
+        "Acción",
+        "RPG"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1238810/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1238810/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1238810/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1240440,
+      "title": "God of War",
+      "developer": "Santa Monica Studio",
+      "publisher": "PlayStation PC LLC",
+      "year": 2022,
+      "categories": [
+        "Acción",
+        "Aventura"
+      ],
+      "rating": 4.9,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1222730,
+      "title": "Star Wars: Squadrons",
+      "developer": "Motive Studios",
+      "publisher": "Electronic Arts",
+      "year": 2022,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1222730/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1222730/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1817070,
+      "title": "Marvel’s Spider‑Man: Remastered",
+      "developer": "Insomniac Games",
+      "publisher": "PlayStation PC LLC",
+      "year": 2022,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.7,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1938090,
+      "title": "The Last of Us Part I",
+      "developer": "Naughty Dog",
+      "publisher": "PlayStation PC LLC",
+      "year": 2023,
+      "categories": [
+        "Acción",
+        "Historia"
+      ],
+      "rating": 4.0,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 601150,
+      "title": "Devil May Cry 5",
+      "developer": "CAPCOM",
+      "publisher": "CAPCOM",
+      "year": 2019,
+      "categories": [
+        "Acción"
+      ],
+      "rating": 4.8,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/601150/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/601150/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/601150/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 268910,
+      "title": "Cuphead",
+      "developer": "Studio MDHR",
+      "publisher": "Studio MDHR",
+      "year": 2017,
+      "categories": [
+        "Plataformas"
+      ],
+      "rating": 4.9,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/268910/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/268910/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/268910/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 548570,
+      "title": "Wasteland 3",
+      "developer": "inXile",
+      "publisher": "Deep Silver",
+      "year": 2020,
+      "categories": [
+        "RPG",
+        "Táctico"
+      ],
+      "rating": 4.6,
+      "price": 59.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/548570/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/548570/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/548570/library_600x900.jpg"
+      }
+    },
+    {
+      "appid": 1139900,
+      "title": "Disco Elysium - The Final Cut",
+      "developer": "ZA/UM",
+      "publisher": "ZA/UM",
+      "year": 2019,
+      "categories": [
+        "RPG",
+        "Narrativa"
+      ],
+      "rating": 4.9,
+      "price": 39.99,
+      "images": {
+        "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1139900/header.jpg",
+        "banner": "https://cdn.akamai.steamstatic.com/steam/apps/1139900/capsule_616x353.jpg",
+        "portrait": "https://cdn.akamai.steamstatic.com/steam/apps/1139900/library_600x900.jpg"
+      }
+    }
+  ]
+}

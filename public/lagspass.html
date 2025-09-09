@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LAGSpass</title>
+  <link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/lagspass.css">
+</head>
+<body>
+  
+<header class="site">
+  <div class="container header-inner">
+    <div class="brand">
+      <a href="./index.html" style="color: #ff6a00;font-size: 25px;">LAGS</a>
+    </div>
+    <nav class="menu">
+      <a href="./index.html">Inicio</a>
+      <a href="./biblioteca.html">Biblioteca</a>
+      <a href="./comunidad.html">Comunidad</a>
+      <a href="./lagspass.html">LAGSpass</a>
+      <a href="./perfil.html">Perfil</a>
+    </nav>
+    <div class="actions">
+      <a class="btn brand" href="./lagsito.html">Lagsito</a>
+    </div>
+  </div>
+</header>
+
+<main class="container section">
+
+  <div class="card body subscription-card">
+    <h2>LAGSpass – Suscripción Mensual</h2>
+    <p>Acceso completo a todos los juegos y descuentos exclusivos.</p>
+    <div class="actions">
+      <button id="subscribeBtn" class="btn brand">Activar suscripción</button>
+      <button id="cancelBtn" class="btn red">Cancelar suscripción</button>
+    </div>
+  </div>
+
+  <div class="card body" style="padding: auto; text-align: center;">
+    <h2>LAGSpass – Juegos incluidos</h2>
+    <p>30 juegos disponibles. Precios mostrados en tu moneda para referencia.</p>
+    <div class="list" style="padding: 50px;"></div>
+  </div>
+
+</main>
+
+<!-- Modal de pago -->
+<div id="buyModal" class="modal">
+  <div class="modal-content checkout">
+    <span class="close">&times;</span>
+    <h2>Seleccionar Medio de Pago</h2>
+    <div class="checkout-body">
+      <div class="payment-section">
+        <form class="card-form hidden">
+          <input type="text" placeholder="Número de tarjeta" required/>
+          <input type="text" placeholder="Nombre en tarjeta" required/>
+          <input type="text" placeholder="Fecha expiración MM/AA" required/>
+          <input type="text" placeholder="CVV" required/>
+        </form>
+        <div class="payment-options">
+          <div class="row">
+            <button class="payment-btn" data-method="debit">Tarjeta de débito</button>
+            <button class="payment-btn" data-method="credit">Tarjeta de crédito</button>
+          </div>
+          <button class="payment-btn mercado" data-method="mercado">
+            Mercado Pago
+            <img src="https://vectorseek.com/wp-content/uploads/2023/08/Mercado-Livre-Icon-Logo-Vector.svg--300x208.png" alt="MP" class="mp-logo"/>
+          </button>
+        </div>
+        <button id="confirmPurchase" class="btn brand">Confirmar Compra</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="container">
+    <div class="cols">
+      <div><strong>LAGS</strong><p>Tu tienda digital de videojuegos para Latinoamérica.</p></div>
+      <div><strong>Explora</strong><ul><li><a href="./index.html">Inicio</a></li><li><a href="./comunidad.html">Comunidad</a></li></ul></div>
+      <div><strong>Cuenta</strong><ul><li><a href="./perfil.html">Perfil</a></li><li><a href="./login.html">Iniciar sesión</a></li></ul></div>
+      <div><strong>Legal</strong><ul><li>Uso educativo, no comercial.</li><li>Marcas pertenecen a sus dueños.</li></ul></div>
+    </div>
+    <small>© 2025 LAGS · Argentina</small>
+  </div>
+</footer>
+
+  <script type="module" src="./js/lagspass.js"></script>
+</body>
+</html>

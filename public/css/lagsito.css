@@ -141,3 +141,22 @@ footer a { color: #ff6a00; text-decoration: none; }
     width: 100%;
   }
 }
+/* Video Lagsito */
+.lagsito-video {
+  width: auto;          /* Mantiene proporción original */
+  height: 550px;        /* Igual que la imagen anterior */
+  max-width: 100%;      /* Que no se salga del contenedor */
+  border-radius: 12px;
+  opacity: 0;
+  animation: fadeInLeft 5s ease forwards, levitar 4s ease-in-out infinite;
+  animation-delay: 0s,1s;
+  object-fit: contain;   /* Ajusta el video al contenedor sin deformarlo */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lagsito-video {
+    width: 250px;       /* Igual que la imagen en móviles */
+    height: 250px;      /* Mantiene proporción cuadrada */
+  }
+}

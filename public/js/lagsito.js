@@ -97,7 +97,3 @@ chatSend.addEventListener("click", sendMessage);
 chatInput.addEventListener("keypress", e => {
   if (e.key === "Enter") sendMessage();
 });
-
-window.speechSynthesis.onvoiceschanged = () => {
-  window.speechSynthesis.getVoices();
-};
